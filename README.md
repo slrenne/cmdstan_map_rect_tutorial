@@ -99,7 +99,7 @@ Your compiler will toil for a bit and then signal its satisfaction.
 
 Make a new folder called `redcard` inside your `cmdstan-2.18.0` folder and drop the `redcard_input.R` and `logistic0.stan` files in it. To build the Stan model, while still in the `cmdstan-2.18.0` folder, enter:
 ```bash
-make redcards/logistic0
+make redcard/logistic0
 ```
 Again, compiler toil. Satsifaction. To sample from the model:
 ```bash
